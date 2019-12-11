@@ -1,0 +1,532 @@
+/*.App {
+  text-align: center;
+}
+
+.bar{
+  cursor: pointer;
+}
+
+.bar2{
+  cursor: pointer;
+}
+
+.bar2_playground{
+  position: relative;
+}
+
+
+.tooltip {
+  background: #eee;
+  box-shadow: 0 0 5px #999999;
+  color: #333;
+  font-size: 18px;
+  left: 130px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  width: 80px;
+  z-index: 100;
+}
+
+
+.tooltipp {
+  background: #eee;
+  box-shadow: 0 0 5px #999999;
+  color: #333;
+  font-size: 18px;
+  padding: 10px;
+  position: absolute;
+  left: 130px;
+  top: 95px;
+  z-index: 100;
+  display: none;
+  opacity: 0.8;
+}
+
+.label{
+  color: #ed5373;
+}
+
+.line {
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path {
+  stroke: #eaeaea;
+}
+
+.line-group,.line{
+  cursor: pointer;
+}
+
+
+.line_playground{
+  position: relative;
+}
+
+.next_pre{
+  position: absolute;
+  left: 60%;
+  top: 10%;
+}
+
+.line_tooltip{
+  display: none;
+  position: absolute;
+  background: #f2f2f2;
+  border-style: none;
+  padding: 5px;
+}
+
+.line_hover_bar{
+  display: none;
+  position: absolute;
+  background: #DCF3F4;
+  width: 70px;
+  opacity: 0.8;
+}
+
+.sel_btn{
+	display: inline-block;
+	background-color: #efefef!important;
+	color: #7169DC !important;
+	margin-left: 15px;
+}
+
+.sales_chart{
+	margin-top: 3%;
+	position: relative;
+}
+
+.btnmay{
+	position: absolute;
+	top: 92%;
+	left: 35%;
+	width: 30px;
+	height: 20px;
+	border: none !important;
+	cursor: pointer;
+}
+
+.btnjune{
+	position: absolute;
+	top: 92%;
+	left: 38.5%;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.btnjuly{
+	position: absolute;
+	top: 92%;
+	left: 41.5%;	
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.btnaug{
+	position: absolute;
+	top: 92%;
+	left: 44.5%;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.btnsept{
+	position: absolute;
+	top: 92%;
+	left: 48%;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.btnoct{
+	position: absolute;
+	top: 92%;
+	left: 51%;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.btnnov{
+	position: absolute;
+	top: 92%;
+	left: 54%;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.btndec{
+	position: absolute;
+	top: 92%;
+	left: 57.5%;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.btnjan{
+	position: absolute;
+	top: 92%;
+	left: 60.5%;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.btnfeb{
+	position: absolute;
+	top: 92%;
+	left: 63.5%;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.btnmarch{
+	position: absolute;
+	top: 92%;
+	left: 66.5%;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.btnapril{
+	position: absolute;
+	top: 92%;
+	left: 69.5%;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+
+
+.righty{
+	margin-left: 15%;
+	position: relative;
+	bottom: 200px;
+	padding: 2% 2% 10% 2%;
+}
+
+.sel_buttons{
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.cardy{
+	
+}
+
+.star-container{
+	padding: 4px !important;
+}
+
+.widget-svg{
+	width: 24px !important;
+	height: 24px !important;
+}
+.card_starbox, .startext{
+	display: inline-block;
+}
+
+.card_starbox{
+	margin-left: 10%;
+}
+
+.startext{
+	margin-left: 240px;
+	color: #63B7FD;
+	font-size: 20px;
+	font-weight: 700;
+	position: relative;
+	top: 5px;
+}
+
+.card_boxes h5{
+	margin-left: 30px;
+}
+
+.limitbarbox,.targetbarbox,.ytdbarbox{
+	margin-left: 30px;
+	margin-top: 30px;
+	position: relative;
+}
+
+.limitbar,.targetbar,.ytdbar{
+	width: 500px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: #e3e3e3;
+}
+
+.limitbarred{
+	width: 100px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: #FC495F;
+	position: absolute;
+	bottom: 0px;
+}
+
+.targetbarblue{
+	width: 300px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: #1A96FC;
+	position: absolute;
+	bottom: 0px;
+	left: 17%;
+}
+
+.targetbargreen{
+	width: 115px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: #4FB51A;
+	position: absolute;
+	bottom: 0px;
+	left: 70%;
+}
+
+.ytdbargreen{
+	width: 115px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: #4FB51A;
+	position: absolute;
+	bottom: 0px;
+	left: 70%;
+}
+
+.ytdbarblue{
+	width: 300px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: #1A96FC;
+	position: absolute;
+	bottom: 0px;
+	left: 17%;
+}
+
+.limitpercen{
+	color: #FC495F;
+	font-weight: 700;
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+.targetpercen1{
+	color: #1A96FC;
+	font-weight: 700;
+	margin-top: 5px;
+	font-size: 15px;
+	position: relative;
+	left: 60%;
+}
+
+.targetpercen2{
+	color: #4FB51A;
+	font-weight: 700;
+	margin-top: 5px;
+	font-size: 15px;
+	position: relative;
+	left: 60%;
+}
+
+.card_boxes{
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+.chart_label_item{
+	display: inline-block;
+	margin-left: 10%;
+}
+
+.outstanding_label{
+	width: 15px;
+	height: 15px;
+	background-color: #FC495F;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.sales_label{
+	display: inline-block;
+	position: relative;
+	bottom: 14px;
+	right: 10px;
+}
+
+.sales_circle{
+	width: 15px;
+	height: 15px;
+	background-color: #7169DC;
+	border-radius: 50%;
+	position: absolute;
+	left: 15px;
+}
+
+.sales_line{
+	position: absolute;
+	background-color: #1A96FC;
+	width: 50px;
+	height: 4px;
+	top: 5px;
+	border-radius: 8px;
+}
+
+.outstanding_text{
+	display: inline-block;
+	margin-left: 5px;
+	position: relative;
+	bottom: 2px;
+	font-weight: 700;
+}
+
+.sales_text{
+	display: inline-block;
+	margin-left:47px;
+	position: relative;
+	bottom: 2px;
+	font-weight: 700;
+}
+
+.chart_labels{
+	margin-left: 80px !important;
+}
+
+.salesheader h5{
+    color: #6673df;
+}
+
+.salesheader h5 span{
+	color: #d3d3d3;
+}
+*/
+/*
+hr{
+	height: 2px !important;
+	border:none;
+	color:#333;
+	background-color:#333;
+}
+
+*/
+
+.axis line {
+    stroke-dasharray: 2px;
+    stroke: #eaeaea;
+}
+.snapview-piechart .axis line {
+    stroke-dasharray: 2px;
+    stroke: #eaeaea;
+}
+.y.axis path {
+    fill: none;
+    stroke: #eaeaea;
+    shape-rendering: crispEdges;
+}
+.x.axis line {
+    stroke: none;
+}
+.dot {
+    height: 4px;
+    width: 4px;
+    background-color: #879399;
+    border-radius: 50%;
+    margin: 2px 0;
+	display: inline-block;
+}
+circle.dot.last-dot{
+	fill: #6673df;
+}
+circle.dot.current-dot{
+	fill: rgb(219, 188, 142);
+}
+.line{
+	stroke: rgb(102, 204, 255);
+}
+rect.bar {
+    fill: #ff6666 !important;
+    opacity: 1;
+}
+.salesview .progress-bar.bg-blue {
+    background-color: #1b94fa;
+}
+.salesview .progress-bar.bg-green {
+	background-color: #58b524;
+}
+.salesview .progress-bar.bg-red{
+	background-color: #f24952;
+}
+.salesview .progress-bar{
+	box-shadow: none;
+	background-color: #d8d8d8;
+}
+.salesview .progress{
+	border-radius: 10px;
+	height: 10px;
+}
+.salesview span.fa.fa-star{
+	color: #eaeaea;
+	font-size: 20px;
+}
+.salesview span.fa.fa-star.checked {
+    color: #e0c933;
+}
+.salesview .box-sale .rating-number-sale {
+    color: #1b94fa;
+    font-size: 16px;
+	font-weight: 600;
+	margin: 0px;
+}
+.salesview .box-sale{
+	border-bottom: 2px solid #f2f2f2;
+    padding: 20px;
+}
+.salesview .box-sale .sideheading{
+	font-size: 14px;
+	font-weight: 600;
+}
+.salesview .box-sale.rating-sec span {
+    margin-right: 5px;
+} 
+.salesview .box-sale .sidetitle {
+    margin-bottom: 10px;
+}
+.salesview .box-sale .sidetitle .r-num{
+	color: #999999;
+}
+.salesview .progress .progress-bar label{
+	position: absolute;
+	margin-top: 15px;
+	font-size: 12px;
+	color: #000;
+	font-weight: 600;
+}
+.salesview .progress .progress-bar label.blue-text{
+	color: #1b94fa;
+}
+.salesview .progress .progress-bar label.green-text{
+	color: #58b524;
+}
+.salesview .progress .progress-bar label.red-text{
+	color: #f24952;
+}
+.salesview .dragdroppable.dragdroppable-column.col-sm-8,
+.salesview .dragdroppable.dragdroppable-column.col-sm-4 {
+    padding: 0px;
+}
+.salesview .sidebar-salesview .dashboard-component.dashboard-component-chart-holder .chart-header {
+	display: none;
+}
